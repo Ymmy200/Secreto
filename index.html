@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Para Ayluu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="quiz-overlay">
+        <div class="quiz-container">
+            <p id="question-text">Pa que piense un ratico... Usted sabe que yo soy un despistado para muchas cosas, pero hay un número en el calendario que para mí es como una ley. No es el día en que nos conocimos, es el día que dio origen a todo lo que hoy me tiene aquí escribiéndole</p>
+            <input type="text" id="answer-input" placeholder="Respuesta..." autocomplete="off">
+            <button id="next-btn">Siguiente</button>
+        </div>
+    </div>
+
+    <div id="atmosphere"></div>
+
+    <div class="message-container" style="display: none;">
+        <div class="message">El rincón de Ayluu</div>
+        <div id="typewriter" class="typewriter-text"></div>
+    </div>
+
+    <div class="container" style="display: none;">
+        <div id="bouquet-area"></div>
+    </div>
+
+    <audio id="bg-music" loop>
+        <source src="Boza - Hecha Pa' Mi (Official Video).mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
